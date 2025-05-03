@@ -1,5 +1,7 @@
-import Image from 'next/image';
+'use client'; // Add 'use client' directive for three.js integration
+
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { DeveloperAvatar } from '@/components/three/DeveloperAvatar'; // Import the 3D avatar component
 
 export function About() {
   return (
@@ -7,15 +9,9 @@ export function About() {
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 scroll-animate">About Me</h2>
         <div className="grid md:grid-cols-3 gap-8 items-center">
-          <div className="md:col-span-1 flex justify-center scroll-animate">
-            <Image
-              src="https://picsum.photos/300/300" // Replace with a different picture or keep placeholder
-              alt="Dibyanshu Jha - About"
-              width={300}
-              height={300}
-              className="rounded-lg shadow-lg object-cover aspect-square"
-              data-ai-hint="developer coding laptop"
-            />
+          <div className="md:col-span-1 flex justify-center scroll-animate h-64 md:h-auto">
+            {/* Replace Image with 3D Avatar */}
+            <DeveloperAvatar />
           </div>
           <div className="md:col-span-2 scroll-animate">
              <Card className="bg-card/80 backdrop-blur-sm">

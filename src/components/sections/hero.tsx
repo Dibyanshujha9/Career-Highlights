@@ -1,18 +1,19 @@
 // src/components/sections/hero.tsx
-'use client'; // Add 'use client' directive
+'use client';
 
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { ArrowDown } from 'lucide-react';
 import Image from 'next/image';
+import { HeroCanvas } from '@/components/three/HeroCanvas'; // Import the 3D canvas
 
 export function Hero() {
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center text-center overflow-hidden particle-container">
-       {/* Placeholder background - Consider adding a subtle animated background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-background to-secondary opacity-80 z-0"></div>
-       {/* Add particle canvas here if implementing */}
+    <section id="home" className="relative h-screen flex items-center justify-center text-center overflow-hidden">
+      {/* 3D Background Canvas */}
+      <HeroCanvas />
 
+      {/* Foreground Content */}
       <div className="relative z-10 p-4 flex flex-col items-center scroll-animate">
          <Image
           src="https://picsum.photos/150/150"
