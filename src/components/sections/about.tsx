@@ -1,7 +1,7 @@
 'use client'; // Add 'use client' directive for three.js integration
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { DeveloperAvatar } from '@/components/three/DeveloperAvatar'; // Import the 3D avatar component
+import { DeveloperAvatar } from '@/components/three/DeveloperAvatar'; // Re-enable the 3D avatar
 
 export function About() {
   return (
@@ -9,9 +9,10 @@ export function About() {
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 scroll-animate">About Me</h2>
         <div className="grid md:grid-cols-3 gap-8 items-center">
-          <div className="md:col-span-1 flex justify-center scroll-animate h-64 md:h-auto">
-            {/* Replace Image with 3D Avatar */}
-            <DeveloperAvatar />
+          <div className="md:col-span-1 flex justify-center items-center scroll-animate h-64 md:h-auto bg-muted/30 rounded-lg">
+            {/* Re-enable 3D Avatar */}
+             {/* <p className="text-muted-foreground text-sm">[3D Avatar Placeholder]</p> */}
+             <DeveloperAvatar />
           </div>
           <div className="md:col-span-2 scroll-animate">
              <Card className="bg-card/80 backdrop-blur-sm">
