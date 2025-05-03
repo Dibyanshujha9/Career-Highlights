@@ -10,7 +10,7 @@ import { Hero } from '@/components/sections/hero'; // Re-enable the Hero compone
 export default function Home() {
   return (
     <>
-      <Hero />
+      {/* <Hero /> */}
       <About />
       <Skills />
       <Experience />
