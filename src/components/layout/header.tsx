@@ -9,7 +9,7 @@ import { cn } from '@/lib/utils';
 
 const navItems = [
   { name: 'Home', href: '#home' },
-  { name: 'About', href: '#about' },
+  // { name: 'About', href: '#about' }, // Removed About link
   { name: 'Skills', href: '#skills' },
   { name: 'Experience', href: '#experience' },
   { name: 'Projects', href: '#projects' },
