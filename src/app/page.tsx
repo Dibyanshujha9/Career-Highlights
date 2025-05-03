@@ -1,17 +1,15 @@
 
-import { About } from '@/components/sections/about';
 import { Skills } from '@/components/sections/skills';
 import { Experience } from '@/components/sections/experience';
 import { Projects } from '@/components/sections/projects';
 import { Education } from '@/components/sections/education';
 import { Contact } from '@/components/sections/contact';
-import { Hero } from '@/components/sections/hero'; // Re-enable the Hero component
+import { Home } from '@/components/sections/home';
 
-export default function Home() {
+export default function HomePage() { // Renamed component to avoid conflict with file name
   return (
     <>
-      {/* <Hero /> */}
-      {/* <About /> */}
+      <Home />
       <Skills />
       <Experience />
       <Projects />
