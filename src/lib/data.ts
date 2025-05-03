@@ -118,20 +118,20 @@ export interface Project {
 export const projectsData: Project[] = [
   {
     title: 'LIFELINE MANAGER',
-    description: 'A full-stack blood bank management system using the MERN stack. Supports real-time donor registration, hospital coordination, and blood inventory monitoring. Architected scalable frontend infrastructure using MVC and Redux, secure routing with JWT, and integrated RESTful APIs via Axios with robust middleware.',
+    description: 'Developed a comprehensive MERN-stack blood bank management platform, facilitating real-time donor registration, seamless hospital coordination, and efficient blood inventory tracking. Engineered a scalable frontend architecture leveraging MVC principles and Redux for predictable state management. Implemented secure user authentication and authorization using JSON Web Tokens (JWT) and integrated RESTful APIs via Axios with robust middleware for reliable data exchange.',
     technologies: ['MERN Stack', 'Redux', 'JWT', 'Axios', 'MVC'],
     link: 'https://bloodsupport.info',
     repo: 'https://github.com/Dibyanshujha9/LifelineManager', // Example repo link
   },
   {
     title: 'Realtime Location Tracker',
-    description: 'A robust real-time device tracking application built with Node.js, Express, and Socket.IO, featuring dynamic map integration using Leaflet.js. Designed for real-time monitoring of device locations on an interactive map.',
+    description: 'Engineered a real-time device tracking solution utilizing Node.js and Express for the backend, coupled with Socket.IO for low-latency bidirectional communication. Integrated Leaflet.js to provide a dynamic and interactive map interface for visualizing device locations in real-time. Designed for applications requiring continuous monitoring and geospatial awareness.',
     technologies: ['Node.js', 'Express.js', 'Socket.io', 'Leaflet.js', 'EJS'],
     repo: 'https://github.com/Dibyanshujha9/Realtime_location_Tracker',
   },
   {
     title: 'Drive Cloud',
-    description: 'A robust authentication system built with Node.js, Express, and MongoDB. Features secure cookie-based session management, file uploads integrated with Cloudinary, and dynamic views rendered using EJS. Frontend designed with Tailwind CSS and Flowbite.',
+    description: 'Constructed a secure file management and authentication system leveraging Node.js, Express, and MongoDB. Implemented persistent user sessions using secure, cookie-based authentication (JWT) and bcrypt hashing. Integrated Cloudinary for scalable cloud-based file storage and retrieval. Developed dynamic server-side rendered views with EJS, styled using Tailwind CSS and Flowbite components for a modern user interface.',
     technologies: ['Node.js', 'Express.js', 'MongoDB', 'JWT', 'bcrypt', 'EJS', 'Cloudinary', 'Tailwind CSS', 'Flowbite'],
     repo: 'https://github.com/Dibyanshujha9/drive_cloud',
   },
