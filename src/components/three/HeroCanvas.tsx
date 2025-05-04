@@ -2,7 +2,7 @@
 'use client';
 
 import * as THREE from 'three';
-import { useRef, useMemo, useState } from 'react';
+import { useRef, useMemo, useState, useEffect } from 'react'; // Import useEffect directly
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Points, PointMaterial } from '@react-three/drei';
 import { cn } from '@/lib/utils';
@@ -22,7 +22,7 @@ function Stars(props: any) {
     setMouse({ x, y });
   };
 
-  React.useEffect(() => {
+  useEffect(() => { // Use the directly imported useEffect
     window.addEventListener('mousemove', handleMouseMove);
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
