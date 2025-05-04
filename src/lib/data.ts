@@ -14,6 +14,7 @@ export interface SkillCategory {
 
 export const skillsData: SkillCategory[] = [
   {
+    
     title: 'Programming Languages',
     icon: Code,
     skills: [
