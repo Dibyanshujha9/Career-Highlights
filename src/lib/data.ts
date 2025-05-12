@@ -6,6 +6,7 @@ export interface Skill {
   icon?: LucideIcon | React.FC<React.SVGProps<SVGSVGElement>>;
 }
 
+
 export interface SkillCategory {
   title: string;
   icon: LucideIcon;
