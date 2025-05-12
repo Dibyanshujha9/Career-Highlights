@@ -118,21 +118,28 @@ export interface Project {
 
 export const projectsData: Project[] = [
   {
+    title: 'Soil Sense',
+    description: 'Developed a soil analysis web application leveraging OpenCV, HSV color space transformation, and Random Forest classification for accurate NPK deficiency detection, reducing manual testing time by 60%. Integrated FastAPI with a React + TypeScript frontend, streamlining real-time image inference and achieving a 45% improvement in processing speed over the initial Colab-based prototype. Implemented weather-based fertilizer recommendation logic using third-party Weather APIs, enhancing fertilizer timing accuracy and increasing actionable insights by 70%. Designed a responsive UI with real-time image previews, automated reports, and contextual fertilizer suggestions, boosting user engagement and contributing to a 40% increase in application usage post-release.',
+    technologies: ['OpenCV', 'FastAPI', 'React', 'TypeScript', 'Random Forest', 'HSV Color Space', 'Weather API'],
+    link: 'http://soilsense-ai.netlify.app',
+    repo: 'https://github.com/Dibyanshujha9/SoilSense',
+  },
+  {
     title: 'LIFELINE MANAGER',
-    description: 'Architected and deployed LIFELINE MANAGER, a production-ready MERN blood bank system. Implemented scalable MVC/Redux frontend architecture, reducing state-related bugs by 35%. Engineered JWT authentication with role-based controls, decreasing unauthorized access by 40%. Optimized Axios middleware achieved 25% faster responses. Enhanced UX with adaptive loading states increased engagement by 30% while reducing crash rates.',
+    description: 'Engineered a MERN-based blood bank management system, LIFELINE MANAGER, achieving production-readiness. Implemented a scalable MVC/Redux frontend architecture, which reduced state-related bugs by 35%. Developed robust JWT authentication with role-based access control, decreasing unauthorized access incidents by 40%. Optimized Axios middleware for RESTful API integration, resulting in 25% faster API response times. Enhanced user experience with adaptive loading states and intuitive UI, increasing user engagement by 30% and significantly reducing application crash rates.',
     technologies: ['MERN Stack', 'Redux', 'JWT', 'Axios', 'MVC'],
     link: 'https://bloodsupport.info',
-    repo: 'https://github.com/Dibyanshujha9/LIFELINE-MANAGER', // Example repo link
+    repo: 'https://github.com/Dibyanshujha9/LIFELINE-MANAGER',
   },
   {
     title: 'Realtime Location Tracker',
-    description: 'Engineered a real-time device tracking solution with Node.js/Express backend and Socket.IO for low-latency bidirectional communication. Implemented Leaflet.js for dynamic, interactive map visualization of device locations. The system delivers continuous monitoring with geospatial awareness for applications requiring instant location updates and geographical context. Architecture supports scalable device management with minimal latency.',
+    description: 'Architected a real-time device tracking solution utilizing a Node.js/Express backend and Socket.IO for persistent, low-latency bidirectional communication. Integrated Leaflet.js for dynamic and interactive map visualization of device locations. The system delivers continuous, high-fidelity monitoring with geospatial awareness, tailored for applications requiring instant location updates and geographical context. The architecture supports scalable device management with minimal communication latency.',
     technologies: ['Node.js', 'Express.js', 'Socket.io', 'Leaflet.js', 'EJS'],
     repo: 'https://github.com/Dibyanshujha9/Realtime_location_Tracker',
   },
   {
     title: 'Drive Cloud',
-    description: 'Engineered a secure file management system with Node.js, Express, and MongoDB. Implemented JWT-based authentication with bcrypt hashing for enhanced security. Integrated Cloudinary as the core cloud storage solution, enabling scalable file operations with optimized retrieval pathways. Developed responsive server-rendered interfaces using EJS templates styled with Tailwind CSS and Flowbite components for intuitive user experience.',
+    description: 'Developed a secure file management and cloud storage system using Node.js, Express, and MongoDB. Implemented robust JWT-based authentication with bcrypt hashing for enhanced data security and user session management. Integrated Cloudinary as the core cloud storage solution, enabling scalable file operations including uploads, downloads, and optimized retrieval pathways. Designed and implemented responsive server-rendered interfaces using EJS templates, styled with Tailwind CSS and Flowbite components for an intuitive and modern user experience.',
     technologies: ['Node.js', 'Express.js', 'MongoDB', 'JWT', 'bcrypt', 'EJS', 'Cloudinary', 'Tailwind CSS', 'Flowbite'],
     repo: 'https://github.com/Dibyanshujha9/drive_cloud',
   },
@@ -166,3 +173,4 @@ export const contactLinks: ContactLink[] = [
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/dibyanshu-jha/', icon: Linkedin },
     { name: 'Email', url: 'mailto:jhadibyanshu46@gmail.com', icon: Mail },
 ]
+
