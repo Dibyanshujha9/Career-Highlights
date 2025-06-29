@@ -86,6 +86,15 @@ export interface Experience {
 }
 
 export const experienceData: Experience[] = [
+    {
+    role: 'SOFTWARE DEVELOPMENT ENGINEER Intern',
+    company: 'SOFT DATA24',
+    duration: 'June 2025 - Present',
+    points: [
+      'Led the development and optimization of backend controllers and middleware to successfully migrate APIs from legacy v1 to a modernized v2 architecture.',
+      'Developed complex SQL queries for managing company hierarchies and performed API testing with Postman to ensure data integrity and a smooth version transition.',
+    ],
+  },
   {
     role: 'Full Stack Developer',
     company: 'INNOTRAT LABS PVT. LTD',
