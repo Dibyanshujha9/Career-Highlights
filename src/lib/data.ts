@@ -119,6 +119,13 @@ export interface Project {
 
 export const projectsData: Project[] = [
   {
+    title: 'LET’S PREPARE',
+    description: 'Engineered an AI-powered mock interview platform using Next.js, Clerk, and Drizzle ORM, leveraging the Gemini API for real-time simulation. The application auto-generates 50+ domain-specific questions, provides instant AI-driven feedback, and supports voice recording with speech-to-text conversion for comprehensive analysis. A secure data layer with PostgreSQL and Drizzle ORM ensures efficient data handling, reducing query latency by 25%.',
+    technologies: ['Next.js', 'Clerk', 'Drizzle ORM', 'Tailwind CSS', 'Gemini AI'],
+    link: 'https://ai-interview-mocker-blond-six.vercel.app/',
+    repo: 'https://github.com/Dibyanshujha9/Ai_Interview_Mocker',
+  },
+  {
     title: 'Soil Sense',
     description: 'Developed a soil analysis web application leveraging OpenCV, HSV color space transformation, and Random Forest classification for accurate NPK deficiency detection, reducing manual testing time by 60%. Integrated FastAPI with a React + TypeScript frontend, streamlining real-time image inference and achieving a 45% improvement in processing speed over the initial Colab-based prototype. Implemented weather-based fertilizer recommendation logic using third-party Weather APIs, enhancing fertilizer timing accuracy and increasing actionable insights by 70%. Designed a responsive UI with real-time image previews, automated reports, and contextual fertilizer suggestions, boosting user engagement and contributing to a 40% increase in application usage post-release.',
     technologies: ['OpenCV', 'FastAPI', 'React', 'TypeScript', 'Random Forest', 'HSV Color Space', 'Weather API'],
@@ -174,4 +181,3 @@ export const contactLinks: ContactLink[] = [
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/dibyanshu-jha/', icon: Linkedin },
     { name: 'Email', url: 'mailto:jhadibyanshu46@gmail.com', icon: Mail },
 ]
-
